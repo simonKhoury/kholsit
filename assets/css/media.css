@@ -1,0 +1,254 @@
+
+/* extra small screen */
+@media only screen and (max-width : 319px) 
+{
+	p{
+		font-size: 16px;
+	}
+	
+}
+@media only screen and (max-height : 530px) and (orientation: portrait) 
+{
+		#navigate{
+		
+		display: none;
+			
+		
+		}
+		p{
+		font-size: 16px;
+	}
+	
+}
+
+/* TO make break line for better reading */
+@media only screen and (max-width : 422px){
+	
+	p span {
+		display: block;
+	}
+	
+}
+
+/* Mobile Breakpoint */
+
+@media only screen and (min-width : 320px)  {
+
+ /*Styles*/ 
+	
+	p
+	{
+		font-size: 30px;
+		
+	}
+	
+	
+
+	.media_section 
+	{
+		display: inline-block;
+		
+		
+	}
+	
+	.first_half .second_half 
+	{
+    	width: 100%;
+		height: 50%;
+	}
+	.second_half{
+		margin-top: 5%;
+		height: 50%;
+		width: 100%;
+	}
+	
+	
+	#footer 
+	{
+    	font-size: 16px;
+		
+	}
+	#iframe{
+		height: 100%;
+	}
+	
+}
+
+/* Mobile landscape in order to hide the arrows */
+@media only screen and (max-height : 650px)  and (orientation : landscape)
+{
+	#navigate{
+		
+		display: none;
+		
+	}
+	.media_section{
+		display: inline-flex;
+		margin-top: 0;
+		
+	}
+	
+	#footer{
+		font-size: 16px;
+	}
+	
+	
+	
+	.first_half
+	{
+	    width: 48%;
+		height: auto;
+	}	
+	
+	.second_half
+	{
+	    width: 48%;
+    	margin-top: 0;
+    	height: auto;
+		margin-left: 4%;
+		
+	}
+	
+	
+}
+
+
+
+@media only screen and (min-width : 768px) and (min-height: 650px)
+{
+	.media_section{
+		display: inline-flex;
+		
+	}
+	
+	#footer{
+		font-size: 22px;
+	}
+	
+	
+	
+	.first_half
+	{
+	    width: 48%;
+		height: 100%;
+	}	
+	
+	.second_half
+	{
+	    width: 48%;
+    	margin-top: 0;
+    	height: 100%;
+		margin-left: 4%;
+		
+	}
+	
+	
+}
+
+@media only screen and (min-width : 1024px)
+{
+	p{
+		font-size: 47.15px;
+	}
+	#footer{
+		font-size: 25px;
+	}
+}
+
+
+/* Tablet Portait Breakpoint */
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+ /* Styles */ 
+	
+	.first_half 
+	{
+    	width: 100%;
+		height: 50%;
+		
+		
+		
+	}
+	
+	.second_half 
+	{
+    	width: 100%;
+		height: 50%;
+		margin-left: 0%;
+		
+		
+		
+	}
+	
+
+	
+
+	.media_section 
+	{
+		display: inline-block;
+		
+		
+		
+		width: 100%;
+		
+		
+	}
+	#footer 
+	{
+    	font-size: 20px;
+		
+	}
+	
+	
+	
+
+	
+}
+
+
+	
+}
+/* Tablet Landscape Breakpoint */
+
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+ Styles 
+	
+	#iframe 
+	{
+	
+	
+		height: 300px;
+		
+	}
+	.media_section
+	{
+	    display: inline-flex;
+	    position: relative;
+    	
+		width: 100%;
+	    
+	}
+	
+	.first_half
+	{
+	    width: 48%;
+	}
+	.second_half
+	{
+	    width: 48%;
+		margin-left: 4%;
+	}
+
+
+	
+	
+
+}
+/* Desktops and laptops ----------- */
+
+
+
+
+
+
